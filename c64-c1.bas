@@ -31,4 +31,7 @@
 310 rem wait, why is everything black and white again?
 320 ?"???: i'm here for the tutorial, lets go back to basic"
 330 input""; k$
-340 ? chr$(147):poke 53281,6:poke 53280,14:poke 646,14:poke 647,14:?"alright!"
+340 ? chr$(147):poke 53281,6:poke 53280,14:poke 646,14:poke 647,14
+350?"???: alright!"
+360 ?"here we are. now lets think about the hint"
+370 ?"they were in parentheses, right?"
