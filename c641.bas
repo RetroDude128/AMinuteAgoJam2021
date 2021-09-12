@@ -1,0 +1,24 @@
+10 i=0:w=0:x=peek(65535):y=peek(65534):z=peek(65533)
+20 if x=255 then w=w+1
+30 if y=72 then w=w+1
+40 if z=252 then w=w+1
+50 if w=3 then goto 70
+60 ?"incompatible software":end
+70 poke 53281,0:poke 53280,0:poke 646,1:poke 647,1:?chr$(5)
+80 ? chr$(147):?"[beyond the barrier]"
+90?"quite a beautiful day today isn't it?"
+100 ?"it has been several days since your last adventure"
+110 ?"why not go outside?"
+120 ?"it's not like theres gonna"
+130 ?"be anything crazy going on"
+140 ?"shall you take a walk in the park?
+150 ?"1 - yes"
+160 ?"2 - no"
+170 input""; a
+180 if a=1 then goto 200
+190 ?"home ending":end
+200 ?"tutorial time!(poke 54271,7)"
+210 ?"you wonder what that message means, you don't think about it.
+220 ?"right as you open the door"
+230 ?"you see someone running towards you"
+240 ?"at speeds appearing to be close to the speed of light"
