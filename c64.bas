@@ -4,4 +4,4 @@
 40 if z=252 then w=w+1
 50 if w=3 then goto 70
 60 ?"incompatible software":end
-70 
+70 poke 53281,0:poke 53280,0:poke 646,1:poke 647,1
