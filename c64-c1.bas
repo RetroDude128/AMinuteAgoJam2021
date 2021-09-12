@@ -22,3 +22,13 @@
 220 ?"right as you open the door"
 230 ?"you see someone running towards you"
 240 ?"at speeds appearing to be close to the speed of light"
+250 ?"she pauses infront of you, looking":?"extremely tired"
+260 ?"???: sorry i'm late."
+270 input""; k$:?"you: who are you?"
+280 ?"???: not important, i'm sure you saw a":?"message just earlier.. right?"
+290 input""; k$:?"you: yeah?"
+300 rem why has ronald mcdonalds singing in an insane way?
+310 rem wait, why is everything black and white again?
+320 ?"???: i'm here for the tutorial, lets go back to basic"
+330 input""; k$
+340 ? chr$(147):poke 53281,6:poke 53280,14:poke 646,14:poke 647,14:?"alright!"
