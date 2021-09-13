@@ -1,3 +1,4 @@
+0 poke770,131:poke771,164
 10 poke 53280,1:poke 53281,1:?chr$(144)
 20 ? chr$(147)
 30 ?"roots planted by retroboi128"
