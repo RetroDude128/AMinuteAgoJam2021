@@ -17,7 +17,7 @@
 170 input""; a
 180 if a=1 then goto 200
 190 ?"home ending":end
-200 ?"tutorial time!(poke 54271,7)"
+200 ?"tutorial time!(poke 53568,7)"
 210 ?"you wonder what that message means, you don't think about it.
 220 ?"right as you open the door"
 230 ?"you see someone running towards you"
@@ -26,26 +26,26 @@
 260 ?"???: sorry i'm late."
 270 input""; k$:?"you: who are you?"
 280 ?"???: not important, i'm sure you saw a":?"message just earlier.. right?"
-290 input""; k$:?"you: yeah?"
+290 input""; k$:?"you: yeah?":poke 53568,7
 300 rem why has ronald mcdonalds singing in an insane way?
-310 cv=peek(54271):if cv=7 then goto 520
+310 cv=peek(53568):if cv=7 then goto 520
 320 ?"???: i'm here for the tutorial, lets go back to basic"
 330 input""; k$
 340 ? chr$(147):poke 53281,6:poke 53280,14:poke 646,14:poke 647,14
 350?"???: alright!"
 360 ?"here we are. now lets think about the   hint"
 370 ?"they were in parentheses, right?"
-380 ?"(poke 54271,7)"
+380 ?"(poke 53568,7)"
 390 ?"???: lets first understand what poke does."
 400 ?"poke changes values in ram!"
-410 ?"so for example, poke 54271,7 changes address 54271,7"
+410 ?"so for example, poke 53568,7 changes address 53568,7"
 420 rem OEO MY VIRTUAL FRIEND
 430 ?"go on! give it a go!"
 440 input""; k$
-450 if k$ = "poke 54271" then goto 480
+450 if k$ = "poke 53568" then goto 480
 460 ?"???: uh oh, that doesn't seem right, lets try again":goto 430
 470 ?"???: yep! you got it!"
-480 ?"to enter the game again type run!":poke 53248,1
+480 ?"to enter the game again type run!":
 490 input""; k$
 500 if k$="run" then goto 10
 510 ?"uh oh, that doesn't seem right, lets try that again":goto 490
