@@ -56,14 +56,15 @@
 560 ?"you: cool! where are the crystals again?"
 570 ?"???: just straight ahead"
 580 ?"you: what are we waiting for? lets go!"
-590 "you enter the shop before going into battle to get some important items"
-600 "shopkeeper: what would you two like to purchase for your upcoming battle?"
-610 ?"1 - sword px1 -5c"
-620 ?"2 - sword px2 -10c"
-630 ?"3 - sword px3 -15c"
-640 ?"4 - shield px1 -5c"
-650 ?"5 - shield px2 -10c"
-660 ?"6 - shield px3 -15c"
-670 ?"7 - hp up -10c"
-680 input"1-7"; ni
-690 
+590 ?"you enter the shop before going into battle to get some important items"
+600 ?"shopkeeper: what would you two like"
+610 ?"to purchase for your upcoming battle?"
+620 ?"1 - sword px1 -5c"
+630 ?"2 - sword px2 -10c"
+640 ?"3 - sword px3 -15c"
+650 ?"4 - shield px1 -5c"
+660 ?"5 - shield px2 -10c"
+670 ?"6 - shield px3 -15c"
+680 ?"7 - hp up -10c"
+690 input"1-7"; ni
+700 
